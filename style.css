@@ -1,0 +1,140 @@
+/* Aggiungi questo stile al tuo file style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.team h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.team p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Aggiungi stili per la transizione al passaggio del mouse */
+.team:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+/* Aggiungi le seguenti regole CSS al tuo file style.css */
+
+.player-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Altre regole CSS rimangono invariate */
+
+.team-player {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.player-logo {
+    width: 60px; /* Regola la larghezza dell'immagine a tuo piacimento */
+    height: 45px; /* Imposta l'altezza dell'immagine a tuo piacimento */
+    border-radius: 50%; /* Rende l'immagine rotonda */
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge una leggera ombra */
+}
+
+.player-details {
+    flex: 1; /* Flessibilità per occupare lo spazio rimanente */
+}
+
+/* Aggiungi queste regole CSS al tuo file style.css */
+
+nav {
+    background-color: #1E1E1E;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Aggiunge una transizione al cambio di colore */
+}
+
+nav a:hover {
+    color: #FFD700; /* Cambia colore al passaggio del mouse */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #333;
+}
+
+footer {
+    background-color: #F5F5F5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFFFFF; /* Imposta il colore del testo a bianco */
+}
