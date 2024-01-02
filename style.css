@@ -191,8 +191,14 @@ header img {
     background: linear-gradient(45deg, #CD7F32, #D2691E);
 }
 
-/* Restanti stili rimangono invariati */
 
+/* Aggiungi questa regola CSS per lo stile degli elementi eliminati */
+.team-player.eliminated::before {
+    content: '\00D7'; /* Codice Unicode per il carattere 'X' */
+    color: red; /* Colore rosso */
+    font-size: 20px; /* Dimensione del carattere */
+    margin-right: 5px; /* Margine a destra per separare dall'immagine */
+}
 
 /* Aggiungi questa regola CSS per nascondere il logo su schermi più piccoli */
 @media only screen and (max-width: 600px) {
