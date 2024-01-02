@@ -178,6 +178,22 @@ header img {
     margin: 0 auto 10px;
 }
 
+/* Aggiungi stili CSS per le classi dei primi tre team */
+.gold {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+}
+
+.silver {
+    background: linear-gradient(45deg, #C0C0C0, #A9A9A9);
+}
+
+.bronze {
+    background: linear-gradient(45deg, #CD7F32, #D2691E);
+}
+
+/* Restanti stili rimangono invariati */
+
+
 /* Aggiungi questa regola CSS per nascondere il logo su schermi più piccoli */
 @media only screen and (max-width: 600px) {
     .team img {
