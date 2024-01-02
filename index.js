@@ -10,6 +10,15 @@ function loadTeamList(teamsData) {
         const teamElement = document.createElement('section');
         teamElement.classList.add('team');
 
+        // Aggiungi classi oro, argento e bronzo ai primi tre team
+        if (index === 0) {
+            teamElement.classList.add('gold');
+        } else if (index === 1) {
+            teamElement.classList.add('silver');
+        } else if (index === 2) {
+            teamElement.classList.add('bronze');
+        }
+
         const positionElement = document.createElement('div');
         positionElement.classList.add('position');
         positionElement.innerHTML = `<p><i class="fas fa-trophy"></i> ${index + 1}</p>`;
@@ -42,8 +51,6 @@ function loadTeamList(teamsData) {
         teamList.appendChild(teamElement);
     });
 }
-
-
 
 function countActivePlayers(players) {
     return players.filter(player => !getPlayerData(player).eliminato).length;
