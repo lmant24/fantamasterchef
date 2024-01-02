@@ -48,9 +48,13 @@ h1 {
     font-size: 1em;
 }
 
+.team stats{
+	font-size: 0.7em;
+}
+
 .team p {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .team-details {
@@ -67,7 +71,7 @@ h1 {
 
 .team-details div p {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left: 10px; /* Aggiunge uno spazio tra i punti e i giocatori non eliminati */
 }
 
