@@ -45,7 +45,7 @@ h1 {
 
 .team h2 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .team p {
@@ -172,4 +172,11 @@ header img {
     max-height: 80px;
     display: block;
     margin: 0 auto 10px;
+}
+
+/* Aggiungi questa regola CSS per nascondere il logo su schermi più piccoli */
+@media only screen and (max-width: 600px) {
+    .team img {
+        display: none;
+    }
 }
