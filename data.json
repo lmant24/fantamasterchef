@@ -1,6 +1,0 @@
-[
-  { "team": "Squadra 1", "playerName": "Giocatore 1", "points": 50 },
-  { "team": "Squadra 1", "playerName": "Giocatore 2", "points": 45 },
-  { "team": "Squadra 2", "playerName": "Giocatore 3", "points": 55 },
-  { "team": "Squadra 2", "playerName": "Giocatore 4", "points": 60 }
-]
