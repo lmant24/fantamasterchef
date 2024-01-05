@@ -33,7 +33,7 @@ h1 {
 }
 
 .team .position {
-    margin-right: 10px; /* Imposta il margine destro a 10px (o qualsiasi altro valore desiderato) */
+    margin-right: 10px;
 }
 
 .team img {
@@ -48,8 +48,8 @@ h1 {
     font-size: 1em;
 }
 
-.team stats{
-	font-size: 0.7em;
+.team stats {
+    font-size: 0.7em;
 }
 
 .team p {
@@ -60,8 +60,8 @@ h1 {
 .team-details {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Posiziona gli elementi ai lati opposti */
-    flex: 1; /* Flessibilità per occupare lo spazio rimanente */
+    justify-content: space-between;
+    flex: 1;
 }
 
 .team-details div {
@@ -72,11 +72,11 @@ h1 {
 .team-details div p {
     margin: 0;
     font-size: 1em;
-    margin-left: 10px; /* Aggiunge uno spazio tra i punti e i giocatori non eliminati */
+    margin-left: 10px;
 }
 
 .team-name {
-    margin-right: 40px; /* Aggiunge un margine a destra per separare il nome dalla parte destra */
+    margin-right: 40px;
 }
 
 .team-logo {
@@ -178,7 +178,6 @@ header img {
     margin: 0 auto 10px;
 }
 
-/* Aggiungi stili CSS per le classi dei primi tre team */
 .gold {
     background: linear-gradient(45deg, #FFD700, #FFA500);
 }
@@ -191,18 +190,50 @@ header img {
     background: linear-gradient(45deg, #CD7F32, #D2691E);
 }
 
-
-/* Aggiungi questa regola CSS per lo stile degli elementi eliminati */
 .team-player.eliminated::before {
-    content: '\00D7'; /* Codice Unicode per il carattere 'X' */
-    color: red; /* Colore rosso */
-    font-size: 20px; /* Dimensione del carattere */
-    margin-right: 5px; /* Margine a destra per separare dall'immagine */
+    content: '\00D7';
+    color: red;
+    font-size: 20px;
+    margin-right: 5px;
 }
 
-/* Aggiungi questa regola CSS per nascondere il logo su schermi più piccoli */
 @media only screen and (max-width: 600px) {
     .team img {
         display: none;
+    }
+}
+
+#teamDetail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.team-details {
+    text-align: center;
+    width: 100%;
+}
+
+.player-list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 600px;  /* Imposta la larghezza massima desiderata per il grafico */
+    height: 400px;     /* Imposta l'altezza desiderata per il grafico */
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+/* Aggiungi media query per adattare il layout in base alla larghezza dello schermo */
+@media (max-width: 768px) {
+    #teamDetail {
+        flex-direction: column;
+    }
+
+    .player-list {
+        margin-right: 0;
     }
 }

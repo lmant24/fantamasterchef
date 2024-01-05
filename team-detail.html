@@ -1,14 +1,15 @@
-<!-- team-detail.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Fantamasterchef - Dettaglio Squadra</title>
 </head>
+
 <body>
-     <header>
+    <header>
         <nav>
             <ul>
                 <li><a href="index.html">Classifica</a></li>
@@ -16,15 +17,20 @@
             </ul>
         </nav>
         <div class="container">
-			<div><img src="img/MasterChef_Logo.png" alt="MasterChef Logo"></div>
-
-			<h1 style="text-align: center;">FANTAMASTERCHEF 2024</h1>
+            <div><img src="img/MasterChef_Logo.png" alt="MasterChef Logo"></div>
+            <h1 style="text-align: center;">FANTAMASTERCHEF 2024</h1>
             <h3 style="text-align: center;">CLASSIFICA GENERALE</h3>
         </div>
     </header>
 
-    <main class="container" id="teamDetail">
-        <!-- I dettagli della squadra verranno caricati dinamicamente qui -->
+    <!-- Main per il nome della squadra -->
+    <main class="container" id="teamNameMain">
+        <!-- Il nome della squadra verrà caricato dinamicamente qui -->
+    </main>
+
+    <!-- Main per la lista dei giocatori e il grafico -->
+    <main class="container" id="teamDetailMain">
+        <!-- La lista dei giocatori e il grafico verranno caricati dinamicamente qui -->
     </main>
 
     <footer>
@@ -33,7 +39,10 @@
         </div>
     </footer>
 
-	<script src="teams-data.js"></script>
+    <script src="teams-data.js"></script>
     <script src="team-detail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </body>
+
 </html>

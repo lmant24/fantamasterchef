@@ -1,28 +1,28 @@
 // Contenuto del file data.js
-// Contenuto del file data.js
 const playersData = [
-    { playerName: 'Alberto Pierobon', teams: ['Famechimica', 'GiovyRana Team', 'Brunobrio'], points: 2, eliminato: false},
-    { playerName: 'Alice Scaffardi', teams: ['Sfilettati', 'Cracchini','Brunobrio'], points: 3, eliminato: false},
-    { playerName: 'Andrea Sciamanna', teams: ['Gli Stellati','Bimbe di Barbieri', 'Sfilettati','PizzaHot'], points: 0, eliminato: false},
-    { playerName: 'Anna Pisano', teams: ['Famechimica','Brunobrio'], points: 2, eliminato: false},
-    { playerName: 'Antonio Mazzola', teams: ['Gli Stellati', 'Cannavacciuoli', 'Bimbe di Barbieri', 'GiovyRana Team', 'Craccosanti','Brunobrio'], points: 5, eliminato: false},
-    { playerName: 'Beatrice Belli', teams: ['Cannavacciuoli', 'Cracchini','Brunobrio'], points: 0, eliminato: false},
-    { playerName: 'Deborah Meloni', teams: ['Bimbe di Barbieri', 'Gli Stellati', 'GiovyRana Team', 'Craccosanti'], points: 2, eliminato: false},
-    { playerName: 'Eleonora Riso', teams: ['Cannavacciuoli', 'Sfilettati'], points: 3, eliminato: false},
-    { playerName: 'Filippo Baldo', teams: ['Gli Stellati', 'Famechimica', 'Cracchini'], points: 2, eliminato: false},
-    { playerName: 'Kassandra Rodriguez', teams: ['GiovyRana Team','PizzaHot'], points: 2, eliminato: false},
-    { playerName: 'Lorenzo Silvidio', teams: ['GiovyRana Team', 'Craccosanti'], points: 0, eliminato: false},
-    { playerName: 'Marcus Agerstroem', teams: ['Gli Stellati', 'Bimbe di Barbieri', 'Sfilettati','Brunobrio'], points: 0, eliminato: false},
-    { playerName: 'Michela Morelli', teams: ['Cannavacciuoli', 'Craccosanti'], points: 0, eliminato: false},
-    { playerName: 'Niccolò Califano', teams: ['Gli Stellati', 'Bimbe di Barbieri', 'Sfilettati'], points: 0, eliminato: false},
-    { playerName: 'Nicolò Molinari', teams: ['Cannavacciuoli', 'Bimbe di Barbieri', 'Famechimica', 'PizzaHot'], points: 2, eliminato: false},
-    { playerName: 'Sara Bellinzona', teams: ['Famechimica', 'Cracchini','PizzaHot'], points: 0, eliminato: false},
-    { playerName: 'Settimino Difonzo', teams: ['Cannavacciuoli','PizzaHot'], points: 2, eliminato: false},
-    { playerName: 'Valeria Zullo', teams: ['Cracchini', 'Craccosanti'], points: 0, eliminato: false},
-    { playerName: 'Fiorenza Pennacchio', teams: ['Cracchini', 'GiovyRana Team', 'Craccosanti'], points: 2, eliminato: true},
-    { playerName: 'Chu Razanadrabe', teams: ['Sfilettati', 'Famechimica', 'PizzaHot'], points: 1, eliminato: true}
+    { playerName: 'Alberto Pierobon', teams: ['Famechimica', 'GiovyRana Team', 'Brunobrio'], detailedPoints: [{ day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+    { playerName: 'Alice Scaffardi', teams: ['Sfilettati', 'Cracchini','Brunobrio'], detailedPoints: [{ day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
+    { playerName: 'Andrea Sciamanna', teams: ['Gli Stellati','Bimbe di Barbieri', 'Sfilettati','PizzaHot'], detailedPoints: [], eliminato: false},
+    { playerName: 'Anna Pisano', teams: ['Famechimica','Brunobrio'], detailedPoints: [{ day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+    { playerName: 'Antonio Mazzola', teams: ['Gli Stellati', 'Cannavacciuoli', 'Bimbe di Barbieri', 'GiovyRana Team', 'Craccosanti','Brunobrio'], detailedPoints: [{ day: 1, activity: 'MisteryBox', value: 3 }, { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+    { playerName: 'Beatrice Belli', teams: ['Cannavacciuoli', 'Cracchini','Brunobrio'], detailedPoints: [], eliminato: false},
+    { playerName: 'Deborah Meloni', teams: ['Bimbe di Barbieri', 'Gli Stellati', 'GiovyRana Team', 'Craccosanti'], detailedPoints: [{ day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+    { playerName: 'Eleonora Riso', teams: ['Cannavacciuoli', 'Sfilettati'], detailedPoints: [{ day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
+    { playerName: 'Filippo Baldo', teams: ['Gli Stellati', 'Famechimica', 'Cracchini'], detailedPoints: [{ day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+    { playerName: 'Kassandra Rodriguez', teams: ['GiovyRana Team','PizzaHot'], detailedPoints: [{ day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+    { playerName: 'Lorenzo Silvidio', teams: ['GiovyRana Team', 'Craccosanti'], detailedPoints: [], eliminato: false},
+    { playerName: 'Marcus Agerstroem', teams: ['Gli Stellati', 'Bimbe di Barbieri', 'Sfilettati','Brunobrio'], detailedPoints: [], eliminato: false},
+    { playerName: 'Michela Morelli', teams: ['Cannavacciuoli', 'Craccosanti'], detailedPoints: [{ day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
+    { playerName: 'Niccolò Califano', teams: ['Gli Stellati', 'Bimbe di Barbieri', 'Sfilettati'], detailedPoints: [{ day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
+    { playerName: 'Nicolò Molinari', teams: ['Cannavacciuoli', 'Bimbe di Barbieri', 'Famechimica', 'PizzaHot'], detailedPoints: [{ day: 1, activity: 'Esterna', value: 2 },{ day: 1, activity: 'Eliminazione', value: 6 }], eliminato: true},
+    { playerName: 'Sara Bellinzona', teams: ['Famechimica', 'Cracchini','PizzaHot'], detailedPoints: [], eliminato: false},
+    { playerName: 'Settimino Difonzo', teams: ['Cannavacciuoli','PizzaHot'], detailedPoints: [{ day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+    { playerName: 'Valeria Zullo', teams: ['Cracchini', 'Craccosanti'], detailedPoints: [{ day: 1, activity: 'Eliminazione', value: 4 }], eliminato: true},
+    { playerName: 'Fiorenza Pennacchio', teams: ['Cracchini', 'GiovyRana Team', 'Craccosanti'], detailedPoints: [{ day: 1, activity: 'Eliminazione', value: 2 }], eliminato: true},
+    { playerName: 'Chu Razanadrabe', teams: ['Sfilettati', 'Famechimica', 'PizzaHot'], detailedPoints: [{ day: 1, activity: 'Eliminazione', value: 1 }], eliminato: true}
     // Aggiungi altri giocatori secondo necessità
 ];
+
 
 const teamsData = generateTeamsData(playersData);
 
@@ -37,7 +37,9 @@ function generateTeamsData(playersData) {
 
             const teamData = teamsMap.get(team);
             teamData.players.push(player.playerName);
-            teamData.points += player.points;
+            
+            // Aggiunge i dettagli dei punti per il giocatore nella squadra
+            teamData.points += player.detailedPoints.reduce((total, detail) => total + detail.value, 0);
         });
     });
 
