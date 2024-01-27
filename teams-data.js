@@ -8,7 +8,8 @@ const playersData = [
     { playerName: 'Alice Scaffardi', teams: ['Sfilettati', 'Cracchini','Brunobrio'], detailedPoints: [
         { day: 1, activity: 'MisteryBox', value: 3 }, 
         { day: 1, activity: 'Esterna', value: 2 }, 
-        { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Eliminazione', value: 18 }], eliminato: true},
     { playerName: 'Andrea Sciamanna', teams: ['Gli Stellati','Bimbe di Barbieri', 'Sfilettati','PizzaHot'], detailedPoints: [
         { day: 1, activity: 'Esterna', value: 2 }, 
         { day: 1, activity: 'Eliminazione', value: 12 }], eliminato: true},
@@ -32,15 +33,19 @@ const playersData = [
         { day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
     { playerName: 'Filippo Baldo', teams: ['Gli Stellati', 'Famechimica', 'Cracchini'], detailedPoints: [
         { day: 1, activity: 'Esterna', value: 2 }, 
-        { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Eliminazione', value: 24 }], eliminato: true},
     { playerName: 'Kassandra Rodriguez', teams: ['GiovyRana Team','PizzaHot'], detailedPoints: [
         { day: 1, activity: 'Esterna', value: 2 }, 
         { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
-    { playerName: 'Lorenzo Silvidio', teams: ['GiovyRana Team', 'Craccosanti'], detailedPoints: [], eliminato: false},
+    { playerName: 'Lorenzo Silvidio', teams: ['GiovyRana Team', 'Craccosanti'], detailedPoints: [
+        { day: 1, activity: 'Eliminazione', value: 21 }
+    ], eliminato: true},
     { playerName: 'Marcus Agerstroem', teams: ['Gli Stellati', 'Bimbe di Barbieri', 'Sfilettati','Brunobrio'], detailedPoints: [ 
         { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
     { playerName: 'Michela Morelli', teams: ['Cannavacciuoli', 'Craccosanti'], detailedPoints: [
         { day: 1, activity: 'Invention', value: 2 }, 
+        { day: 1, activity: 'MisteryBox', value: 3 }, 
         { day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
     { playerName: 'Niccolò Califano', teams: ['Gli Stellati', 'Bimbe di Barbieri', 'Sfilettati'], detailedPoints: [
         { day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
