@@ -20,7 +20,10 @@ const playersData = [
         { day: 1, activity: 'MisteryBox', value: 3 }, 
         { day: 1, activity: 'Esterna', value: 2 }, 
         { day: 1, activity: 'Esterna', value: 2 }, 
-        { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Invention', value: 2 },
+        { day: 1, activity: 'Invention', value: 2 },
+        { day: 1, activity: 'Eliminazione', value: 65 }], eliminato: true},
     { playerName: 'Beatrice Belli', teams: ['Cannavacciuoli', 'Cracchini','Brunobrio'], detailedPoints: [
         { day: 1, activity: 'Eliminazione', value: 8 }], eliminato: true},
     { playerName: 'Deborah Meloni', teams: ['Bimbe di Barbieri', 'Gli Stellati', 'GiovyRana Team', 'Craccosanti'], detailedPoints: [
@@ -28,35 +31,58 @@ const playersData = [
         { day: 1, activity: 'MisteryBox', value: 3 }, 
         { day: 1, activity: 'Esterna', value: 2 }, 
         { day: 1, activity: 'MisteryBox', value: 3 }, 
-        { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Eliminazione', value: 36 }], eliminato: true},
     { playerName: 'Eleonora Riso', teams: ['Cannavacciuoli', 'Sfilettati'], detailedPoints: [
-        { day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
+        { day: 1, activity: 'MisteryBox', value: 3 },
+        { day: 1, activity: 'Invention', value: 2 },
+        { day: 1, activity: 'MisteryBox', value: 3 },
+        { day: 1, activity: 'MisteryBox', value: 3 },
+        { day: 1, activity: 'MisteryBox', value: 3 },
+        { day: 1, activity: 'Eliminazione', value: 80 }], eliminato: false},
     { playerName: 'Filippo Baldo', teams: ['Gli Stellati', 'Famechimica', 'Cracchini'], detailedPoints: [
         { day: 1, activity: 'Esterna', value: 2 }, 
         { day: 1, activity: 'Esterna', value: 2 },
         { day: 1, activity: 'Eliminazione', value: 24 }], eliminato: true},
     { playerName: 'Kassandra Rodriguez', teams: ['GiovyRana Team','PizzaHot'], detailedPoints: [
         { day: 1, activity: 'Esterna', value: 2 }, 
-        { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Eliminazione', value: 40 }], eliminato: false},
     { playerName: 'Lorenzo Silvidio', teams: ['GiovyRana Team', 'Craccosanti'], detailedPoints: [
         { day: 1, activity: 'Eliminazione', value: 21 }
     ], eliminato: true},
     { playerName: 'Marcus Agerstroem', teams: ['Gli Stellati', 'Bimbe di Barbieri', 'Sfilettati','Brunobrio'], detailedPoints: [ 
-        { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Eliminazione', value: 28 }], eliminato: true},
     { playerName: 'Michela Morelli', teams: ['Cannavacciuoli', 'Craccosanti'], detailedPoints: [
         { day: 1, activity: 'Invention', value: 2 }, 
         { day: 1, activity: 'MisteryBox', value: 3 }, 
-        { day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
+        { day: 1, activity: 'MisteryBox', value: 3 },
+        { day: 1, activity: 'MisteryBox', value: 3 },
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Eliminazione', value: 65 }], eliminato: true},
     { playerName: 'Niccolò Califano', teams: ['Gli Stellati', 'Bimbe di Barbieri', 'Sfilettati'], detailedPoints: [
-        { day: 1, activity: 'MisteryBox', value: 3 }], eliminato: false},
+        { day: 1, activity: 'MisteryBox', value: 3 },
+        { day: 1, activity: 'Invention', value: 2 },
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'MisteryBox', value: 3 },
+        { day: 1, activity: 'Eliminazione', value: 45 }], eliminato: true},
     { playerName: 'Nicolò Molinari', teams: ['Cannavacciuoli', 'Bimbe di Barbieri', 'Famechimica', 'PizzaHot'], detailedPoints: [
         { day: 1, activity: 'Esterna', value: 2 },
         { day: 1, activity: 'Eliminazione', value: 6 }], eliminato: true},
     { playerName: 'Sara Bellinzona', teams: ['Famechimica', 'Cracchini','PizzaHot'], detailedPoints: [
-        { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Invention', value: 2 },
+        { day: 1, activity: 'Eliminazione', value: 55 }], eliminato: true},
     { playerName: 'Settimino Difonzo', teams: ['Cannavacciuoli','PizzaHot'], detailedPoints: [
         { day: 1, activity: 'Esterna', value: 2 }, 
-        { day: 1, activity: 'Esterna', value: 2 }], eliminato: false},
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Esterna', value: 2 },
+        { day: 1, activity: 'Eliminazione', value: 32 }], eliminato: true},
     { playerName: 'Valeria Zullo', teams: ['Cracchini', 'Craccosanti'], detailedPoints: [
         { day: 1, activity: 'Eliminazione', value: 4 }], eliminato: true},
     { playerName: 'Fiorenza Pennacchio', teams: ['Cracchini', 'GiovyRana Team', 'Craccosanti'], detailedPoints: [
